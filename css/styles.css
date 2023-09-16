@@ -1,0 +1,117 @@
+body {
+  /*text-align: center;*/
+  background-size: cover;
+  color: #fff;
+  font-family: Tahoma, sans-serif, Arial; 
+  background-color: rgb(95, 207, 128);
+  margin: 0; 
+  padding:50px 20px 50px 20px;
+}
+
+#quote-box {
+  position: relative;
+  top: 5%; 
+  left: 5%; 
+  right: 5%; 
+  width: 90%; 
+  line-height: 1.5;
+  font-style: normal;
+}
+
+.quote {
+  font-size: 48px; 
+  font-weight: 400;
+  line-height: 1.3;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
+  position: relative;
+  margin: 0;
+  font-style: normal;
+}
+
+.quote:before,
+.quote:after {
+  font-size: 48px;
+  line-height: 24px; 
+  position: relative;
+  font-style: normal;
+}
+
+.quote:before {
+  content: "“";
+  top: 0;
+  left: -12px; 
+  font-style: normal;
+}
+
+.quote:after {
+  content: "”";
+  bottom: -4px; 
+  left: 4px; 
+  position: relative;
+  font-style: normal;
+}
+
+.source {
+  font-size: 24px; 
+  letter-spacing: 1px; 
+  line-height: 1.3;
+  text-align: right;
+  margin-right: 20px; 
+}
+
+.source:before {
+  content: "—";
+}
+
+.citation {
+  font-size: 24px; 
+  font-style: italic;
+}
+
+.citation:before {
+  content: ", ";
+  font-style: normal;
+}
+
+.year:before {
+  content: ", ";
+  font-style: normal;
+}
+
+#loadQuote {
+  font-size: 18px; 
+  position: fixed;
+  width: auto; 
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%); 
+  bottom: 30%; 
+  border-radius: 20px;
+  border: 2px solid #fff;
+  color:#000;
+  padding: 10px 10px 10px 10px;
+  transition: 0.5s;
+}
+
+#loadQuote:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+#loadQuote:focus {
+  outline: none;
+}
+
+@media (max-width: 420px) {
+  .quote {
+    font-size: 20px; 
+  }
+  .quote:before,
+  .quote:after {
+    font-size: 30px; 
+    line-height: 15px; 
+  }
+  .source {
+    font-size: 14px; 
+    margin-right: 10px; 
+  }
+}

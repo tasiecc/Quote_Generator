@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tascomm Random Quotes Generator</title>
+  <!-- Include the Amatic SC font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet" type="text/css">
+  <!-- Include a CSS reset file (normalize.css) for consistent styling across browsers -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- Link to Bootstrap CSS for styling -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Include custom CSS styles from styles.css -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <!-- Company logo section -->
+    <div class="logo">
+      <img src="logo.png" alt="Tascomm Logo">
+    </div>
+
+    <!-- Introduction section with a centered title -->
+    <div class="introduction text-center">
+      <!-- Main title -->
+      <h1>Tascomm Random Quotes Generator</h1>
+      <p>Your Source for Inspirational Quotes</p>
+    </div>
+  </header>
+  <main>
+    <div id="quote-box">
+      <!-- Quote container with blockquote element -->
+      <blockquote>
+        <!-- Paragraph element for proper formatting -->
+        <p>
+          <!-- Horizontal line for visual separation -->
+          <hr>
+          <!-- Main quote text with a specific class for styling -->
+          <h2 class="quote-text">You can do anything but not everything</h2>
+          <footer class="quote-source">
+            <!-- Citation details -->
+            <cite class="source">David Allen</cite>
+            <span class="citation">Making It All Work</span>
+            <span class="year">2009</span>
+          </footer>
+        </p>
+      </blockquote>
+    </div>
+    <!-- Button to trigger a new quote with Bootstrap styling -->
+    <button id="loadQuote" class="btn btn-danger">Show another quote</button>
+  </main>
+  <!-- Include Bootstrap's JavaScript and jQuery dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Include your custom JavaScript file for handling quotes -->
+  <script src="js/script_quotes.js"></script>
+</body>
+</html>
