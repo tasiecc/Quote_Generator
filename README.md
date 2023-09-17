@@ -5,6 +5,9 @@ Welcome to the Tascomm Quote Generator project! Here, you'll craft an applicatio
 Looking for daily inspiration and wisdom? You've come to the right place. Tascomm's Random Quotes Generator brings you thought-provoking quotes from various authors and sources. Let these words of wisdom inspire your day and ignite your creativity. Click the button below to discover your daily dose of motivation!
 The project was created with basic html, css and Javascript.
 
+![Tascomm Random Quote Generator](https://github.com/tasiecc/Tascomm_Quote_Generator/assets/64579151/65d4b756-f174-4ea2-9c57-bf3d4cff3d44)
+
+
 To complete this project, you will employ your understanding of essential JavaScript concepts such as variables, loops, and object literals.
 
 This project serves as an enjoyable and effective method for honing your fundamental JavaScript skills. Additionally, it provides you with an interactive portfolio piece, showcasing your mastery of JavaScript.
